@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/s12mc/CodeSpace/unix-v6/build/cmake_install.cmake",
+		"/home/s12mc/CodeSpace/unix-v6/build/sys/cmake_install.cmake",
+		"/home/s12mc/CodeSpace/unix-v6/build/sys/kernel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

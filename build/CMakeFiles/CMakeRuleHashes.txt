@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+204bce565f7034c9113abcf6db7b976a sys/kernel/CMakeFiles/kernel_efi
+331857fcb3067fc38017a196c9568975 sys/kernel/kernel.efi

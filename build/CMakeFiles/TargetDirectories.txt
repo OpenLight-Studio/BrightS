@@ -1,0 +1,7 @@
+/home/s12mc/CodeSpace/unix-v6/build/CMakeFiles/edit_cache.dir
+/home/s12mc/CodeSpace/unix-v6/build/CMakeFiles/rebuild_cache.dir
+/home/s12mc/CodeSpace/unix-v6/build/sys/CMakeFiles/edit_cache.dir
+/home/s12mc/CodeSpace/unix-v6/build/sys/CMakeFiles/rebuild_cache.dir
+/home/s12mc/CodeSpace/unix-v6/build/sys/kernel/CMakeFiles/kernel_efi.dir
+/home/s12mc/CodeSpace/unix-v6/build/sys/kernel/CMakeFiles/edit_cache.dir
+/home/s12mc/CodeSpace/unix-v6/build/sys/kernel/CMakeFiles/rebuild_cache.dir
