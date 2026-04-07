@@ -24,6 +24,17 @@ BrightS 是一个跨平台系统内核。
 - 最后回退到 RAM disk
 - 块设备根盘选择逻辑已工作
 - 已有 Btrfs 挂载路径，并通过串口日志报告成功或失败
+- ✅ **全功能内存文件系统 (RAMFS)**
+  - 完整 POSIX 风格文件操作语义
+  - 支持子目录、符号链接、权限管理
+  - 所有文件系统命令均已实现
+
+- ✅ **LightShell 命令行**
+  - 基础导航命令: `ls`, `cd`, `pwd`, `mkdir`, `rmdir`
+  - 文件操作命令: `touch`, `rm`, `stat`, `cat`, `hexdump`
+  - 文件管理命令: `cp`, `mv` 完整实现
+  - 网络命令: `netget` 支持HTTP下载并保存到文件
+  - 用户与系统命令: `login`, `logout`, `whoami`, `passwd`, `useradd`
 
 - UEFI entry and basic platform bring-up are working.
 - Serial console output is available (`-serial stdio` in QEMU).
@@ -33,6 +44,17 @@ BrightS 是一个跨平台系统内核。
 - RAM disk fallback
 - Block layer root device selection is working.
 - Btrfs mount path is present and reports mount success/failure via serial logs.
+- ✅ **Full Featured RAM Filesystem**
+  - Complete POSIX-style file operations
+  - Subdirectory support, symlinks, permissions
+  - All filesystem commands implemented
+
+- ✅ **LightShell Command Line**
+  - Navigation: `ls`, `cd`, `pwd`, `mkdir`, `rmdir`
+  - File operations: `touch`, `rm`, `stat`, `cat`, `hexdump`
+  - File management: `cp`, `mv` fully implemented
+  - Network: `netget` HTTP download with file saving
+  - User & system: `login`, `logout`, `whoami`, `passwd`, `useradd`
 
 ## 下一步重点 | Next Focus
 
@@ -46,9 +68,9 @@ BrightS 是一个跨平台系统内核。
 
 ## 构建与运行 | Build and Run
 
-构建和运行方式见 [docs/build.md](/home/s12mc/CodeSpace/brights/docs/build.md)。
+构建和运行方式见 [docs/build/build.md](docs/build/build.md)。
 
-See [docs/build.md](/home/s12mc/CodeSpace/brights/docs/build.md).
+See [docs/build/build.md](docs/build/build.md).
 
 ## 交互式 Shell | Interactive Shell
 

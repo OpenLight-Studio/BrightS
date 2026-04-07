@@ -30,7 +30,7 @@ Please use the GitHub issue tracker to report bugs or suggest features. Include:
 
 ## Development Setup
 
-See [BUILD.md](docs/build.md) for instructions on setting up the development environment.
+See [BUILD.md](docs/build/build.md) for instructions on setting up the development environment.
 
 ## License
 
